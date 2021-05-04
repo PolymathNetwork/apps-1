@@ -223,6 +223,13 @@ export function createTesting (t: TFunction): LinkOption[] {
       }
     },
     {
+      info: 'polymesh',
+      text: t('rpc.polymesh', 'Polymesh', { ns: 'apps-config' }),
+      providers: {
+        Interlay: 'wss://pme.polymath.network'
+      }
+    },
+    {
       info: 'prism',
       text: t('rpc.prism', 'Prism', { ns: 'apps-config' }),
       providers: {
