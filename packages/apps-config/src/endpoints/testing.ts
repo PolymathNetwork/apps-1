@@ -226,7 +226,7 @@ export function createTesting (t: TFunction): LinkOption[] {
       info: 'polymesh',
       text: t('rpc.polymesh', 'Polymesh ITN', { ns: 'apps-config' }),
       providers: {
-        Interlay: 'wss://itn-rpc.polymesh.live'
+        Polymath: 'wss://itn-rpc.polymesh.live'
       }
     },
     {
